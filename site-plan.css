@@ -26,8 +26,9 @@ Fonts are separated by a | */
   --nav-hover-background-color: #776871;
 }
 .header {
+  width: auto;
+  height: auto;
   padding: 60px;
-  text-align: center;
   background: #91a8a4;
   color: white;
   font-size: 30px;
