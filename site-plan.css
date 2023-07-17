@@ -34,50 +34,8 @@ Fonts are separated by a | */
   font-size: 30px;
 }
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-.logo {
-  width: 100px;
-  height: 100px;
-}
-.brushes {
-  width: 100%;
-  height: auto;
-}
-.paint  {
-  float: left;
-  width: 100%;
-  height: auto;
-}
-.hills  {
-  width: 100%;
-  height: auto;
-}
-.mountain  {
-  width: 100%;
-  height: auto;
-}
-.palette  {
-  float: right;
-  width: 100%;
-  height: auto;
-}
-.easel  {
-  width: 100%;
-  height: auto;
-}
-.home  {
-  width: 100%;
-  height: auto;
-}
-.gallery  {
-  width: 100%;
-  height: auto;
-}
-.contact  {
-  width: 100%;
-  height: auto;
-}
 
+/*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
   max-width: 1200px;
@@ -86,6 +44,10 @@ body {
   font-size: 18px;
   text-align: center;
 }
+#hero-img {
+  max-width: 1200px;
+}
+
 img {
   display: block;
   margin: 0 auto;
@@ -150,7 +112,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #776871;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -222,59 +184,4 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-body, html {
-  height: 100%;
-}
-
-/* The hero image */
-.hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Brushes.jpg");
-
-/* Set a specific height */
-height: 50%;
-
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
 }
